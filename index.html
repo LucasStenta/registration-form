@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>registration form</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+
+  <form>
+    <h1>Want to go to Mars?</h1>
+
+    <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+    <fieldset>
+      <legend>Personal details</legend>
+      <div class="push">
+          <label for="name">name</label>
+          <input id="name" name="name" required>
+        </div>
+        <div class="push">
+          <label for="email">your email</label>
+          <input id="email" type="email" name="email" required>
+        </div>
+        <div class="push">
+            <label for="age">Age</label>
+            <input id="age" name="age" required>
+          </div>
+          <div class="push">
+        <label for="Physical fitness">Physical fitness</label>
+        <input id="email" type="email" placeholder="me@me.com" name="email" required>
+      </div>
+      <div class="push">
+          <label for="subject">Subject</label>
+          <select id="subject" name="_subject">
+            <option>Get a quote!</option>
+            <option>General question</option>
+            <option>Just to talk</option>
+          </select>
+        </div>
+
+    </fieldset>
+    <fieldset>
+      <legend>Mission statement</legend>
+
+    </fieldset>
+
+
+    <input type="hidden" name="_subject" value="Request to join the mission"
+  </form>
+
+</body>
+</html>
